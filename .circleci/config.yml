@@ -4,6 +4,7 @@ jobs:
   build:
     docker:
       - image: circleci/python:3.7
+    working_directory: ~/project
 
     steps:
       # Step 1: obtain repo from GitHub
@@ -20,4 +21,4 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            py.test -vv tests
+            py.test -vv ~/project/tests
