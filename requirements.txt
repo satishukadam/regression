@@ -8,7 +8,7 @@ cycler==0.10.0
 decorator==4.2.1
 Django==1.11.4
 django-filter==1.0.4
-djangorestframework==3.6.3
+djangorestframework==3.9.1
 entrypoints==0.2.3
 html5lib==1.0.1
 idna==2.6
